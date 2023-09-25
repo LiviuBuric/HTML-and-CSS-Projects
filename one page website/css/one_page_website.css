@@ -1,0 +1,126 @@
+/* This is the CSS file for the Hanna's Candles website */
+
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Set up the navigation styles */
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Set up the home section styles */
+div > div > div > span {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-top: 100px;
+}
+
+/* Set up the gallery section styles */
+section {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+div > div > img {
+  display: block;
+  margin: 0 auto;
+}
+
+div > div > div > h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+div > div > div > p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Set up the buy section styles */
+div > div > h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+div > div > div > h2 > span {
+  font-size: 24px;
+}
+
+div > div > div > p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  margin-top: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+/* Set up the footer styles */
+div:last-child {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #888;
+}
+
+/* Set up the responsive styles */
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  div > div > img {
+    width: 80%;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+  }
+}
